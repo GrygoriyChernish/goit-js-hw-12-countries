@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/airplane-flying-in-blue-world-map-background-traveling-love-concept_77313-258.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  color: rgba(10, 10, 10, 0.925);
+}
+
+.input-search {
+  border-radius: 15px;
+  height: 40px;
+  min-width: 300px;
+  border: transparent;
+  outline: none;
+}
+
+.list-countries {
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card-list {
+  list-style: none;
+  margin-right: 40px;
+}
